@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reem+Kufi+Ink&display=swap');
+
+:root{
+    --ash-gray: hsla(154, 9%, 68%, .6);
+    --ash-gray-2: hsla(94, 13%, 65%, 1);
+    --fern-green: hsla(115, 17%, 38%, .7);
+    --feldgrau: hsla(134, 11%, 32%, .7);
+    --fern-green-2: hsla(124, 26%, 35%, 1);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 90vw;
+    height: 90vh;
+}
+
+canvas{
+    width:500px !important;
+    height:300px !important;
+    color: black !important;
+    margin-left: 6vmax;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.5vmax;
+}
+
+.container img{
+    max-width: none;
+    max-height: none;
+}
+
+.forecast{
+    border: dotted black 2px;
+    width: 20vw;
+    padding: 2vmax;
+    border-radius: 10px;
+}
+
+@media (max-width = 800px){
+    
+}

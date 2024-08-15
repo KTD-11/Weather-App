@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="/leaflet/leaflet.css" />
+            <script src="/leaflet/leaflet.js"></script>
+            <title>Document</title>
+
+        </head>
+        <body>
+            <section>
+                <div class="container">
+                    <div class="forecast"> 
+                        <div style="display: flex; flex-direction: row;">
+                            <h1> temp </h1> &nbsp; &nbsp;
+                            <img alt="Icon" />
+                        </div>
+                        <h4> humidity </h4>
+                        <span>description</span> 
+                        <p> your timezone </p>
+                    </div>
+                    <canvas id="chart"></canvas>
+                </div>
+                <div id="map" style="width: 30vw; height: 30vh;"></div>
+            </section>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script src="config/config.js"></script>
+            <script src="script.js"></script>
+        </body>
+    </html>
